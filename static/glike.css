@@ -119,7 +119,8 @@ h1.midashi{
     padding: 10px 0;
     background-color: #fcd6f1;
     color: black;
-    border:solid 1px #af9d85;
+    border: solid 1px #af9d85;
+    width: 30%;
 }
 
 .categorize th:after{
