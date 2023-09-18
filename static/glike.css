@@ -49,6 +49,12 @@ h1.midashi{
     font-family: "Herculanum", serif;
 }
 
+h2.midashi{
+    font-size: 30px;
+    text-align: center;
+    font-family: "Herculanum", serif;
+}
+
 /* 表(自己紹介) */
 .PR-table{
     width: 80%;
@@ -215,6 +221,56 @@ ul li, ol li {
     list-style: none;
     text-decoration: none;
     text-align: right; 
+}
+
+
+/* ボタン */
+a.linkbutton1 {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 90px;
+    margin: left;
+	padding: 0.2rem 0.3rem;
+	font-weight: bold;
+    font-size: 12px;
+	color: #ffffff;
+	border-bottom: 2px solid #aa1212;
+	border-radius: 100vh;
+    background: #aa1212;
+	box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+	transition: 0.5s;
+}
+a.linkbutton1:hover {
+	color: #fff;
+	background: #e42727;
+	border-bottom: 2px solid #fff;
+	transform: translateY(3px);
+}
+
+a.linkbutton2 {
+	display:inline-block;
+	text-align: center;
+	text-decoration: none;
+	width: 90px;
+    margin: auto;
+	padding: 0.2rem 0.3rem;
+	font-weight: bold;
+    font-size: 16px;
+	color: #fff;
+	border-bottom: 1px solid #cd6ba3;
+	border-radius: 100vh;
+    background: #cd6ba3;
+	box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+	transition: 0.5s;
+}
+a.linkbutton2:hover {
+	color: #fff;
+	background: #f183d2;
+	border-bottom: 1px solid #fff;
+	transform: translateY(3px);
 }
 
 
